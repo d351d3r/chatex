@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcontrib_json.a CMakeFiles/contrib_json.dir/libraries/json/json.cpp.o
-/usr/bin/ranlib libcontrib_json.a

@@ -1,4 +1,0 @@
-C:\WINDOWS\SYSTEM32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/stdmatrix/Desktop/chatex/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc '-DCMAKE_CXX_COMPILER=/usr/bin/g++' -G 'CodeBlocks - Unix Makefiles' /mnt/c/Users/stdmatrix/Desktop/chatex"
--- Configuring done
--- Generating done
--- Build files have been written to: /mnt/c/Users/stdmatrix/Desktop/chatex/cmake-build-debug

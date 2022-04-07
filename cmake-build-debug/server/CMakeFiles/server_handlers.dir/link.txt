@@ -1,2 +1,0 @@
-/usr/bin/ar qc libserver_handlers.a CMakeFiles/server_handlers.dir/replies.cpp.o
-/usr/bin/ranlib libserver_handlers.a
