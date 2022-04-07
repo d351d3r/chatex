@@ -18,7 +18,7 @@ namespace json_config::response {
 
     namespace {
 
-        const std::unordered_map<MessageCode, std::string> MessageMap = {
+        const std::unordered_map<MessageCode, std::string> kMessageMap = {
                 {kOk,            "ok"},
                 {kBadRequest,    "bad request"},
                 {kUnauthorized,  "unauthorized"},
@@ -36,11 +36,11 @@ namespace json_config::response {
 
         std::string AsString() const {
             try {
-                return MessageMap.at(status);
+                return kMessageMap.at(status);
             } catch (const std::out_of_range &e) {
-                return MessageMap.at(kServerError);
+                return kMessageMap.at(kServerError);
             }
         }
     };
 
-} // namespace include::Response
+} // namespace json_config::response
