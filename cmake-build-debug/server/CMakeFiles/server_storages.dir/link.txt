@@ -1,0 +1,2 @@
+/usr/bin/ar qc libserver_storages.a CMakeFiles/server_storages.dir/storages.cpp.o
+/usr/bin/ranlib libserver_storages.a

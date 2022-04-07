@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtalker_helper.a CMakeFiles/talker_helper.dir/talk_helper.cpp.o
+/usr/bin/ranlib libtalker_helper.a

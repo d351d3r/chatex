@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wextra -g CMakeFiles/client_starter.dir/client_starter.cpp.o -o client_starter   -L/mnt/c/Users/stdmatrix/Desktop/chatex/src/server  -Wl,-rpath,/mnt/c/Users/stdmatrix/Desktop/chatex/src/server libclient.a -lpthread -lboost_thread libtalker_helper.a ../../libcontrib_json.a 

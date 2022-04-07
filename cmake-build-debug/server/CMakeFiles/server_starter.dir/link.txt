@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wextra -g CMakeFiles/server_starter.dir/server_runner.cpp.o -o server_starter  libserver.a -lpthread libserver_handlers.a ../libcontrib_json.a libserver_storages.a 
